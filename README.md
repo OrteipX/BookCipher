@@ -1,4 +1,4 @@
-# OrteipX
+# BookCipher
 
 Program Interfaces
 
@@ -20,6 +20,7 @@ Encode each character of the source file by replacing it with three numbers, the
 At the end of running bce, a codedfile is created with locations.
 At the end of running bcd, a messagefile is created with the codedfile.
 The encoded file must be a file of the exact offsets of the message file. Book file:
+
 
     Now is the winter of our discontent\n
     Made glorious summer by this sun of York;\n \fAnd all the clouds that lour’d upon our house\n
@@ -44,3 +45,11 @@ To read more about encoding messages using the book cipher see:
 
 In this program, you are encoding letters, not the words. The encoded file will store the
 number in text.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update the tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
